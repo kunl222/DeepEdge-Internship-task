@@ -32,8 +32,11 @@ A simple web application that lets users explore concise summaries from Wikipedi
 
 ## 🛠️ How to Run
 ### 1. Start the Backend
-### 1. Start the Backend
 ```bash
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
+```
+### 1. Start the Frontend
+```bash
+python -m streamlit run "d:/deepseek project/streamlit/streamlit_app/app.py"
 
